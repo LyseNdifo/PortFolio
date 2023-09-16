@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title>Mon port folio</title>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE-edge">
+       <meta name="viewport" content="width=device-width , initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="media.css">
+       
+    </head>
+    <body>
+      <nav id="gr-nav">
+        <div class="logo">
+            <strong><p> NGASSEU NDIFO</p></strong>
+            <i><p class="section_p1">Lyse Priscille</p></i> 
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">NGASSEU NDIFO Lyse Priscille</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section_pic">
+            <img src="./assets/portfolio_pic.jpg" alt="'lyse ndifo profil picture" class="about-pic" height=100% width=90%/>
+        </div>
+        <div class="section_text">
+            <p class="section_p1">Hello i'm</p>
+            <h2>NGASSEU NDIFO </h2><p>Lyse Priscille <strong> , 19 years old</strong> </p>
+            <p class="section_p2">Student Data Scientist,Front-end developper</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Mon_CV_FRENCH.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact me</button>
+            </div>
+            <div class="socials-container">
+                <a href="https://www.linkedin.com/in/lyse-ndifo-2917a9236/" target="_blank">
+                    <img src="./assets/linkedin.png" alt="my LinkedIn profile" class="icon">
+                  </a>                  
+                <a href="https://github.com/LyseNdifo" target="_blank">
+                    <img src="./assets/github.png" alt="my github profile" class="icon">
+                  </a>                  
+            </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <p class="section_p1">Get to know more</p>
+        <h3 class="title">About me</h3>
+        <div class="section-container">
+            <div class="section_pic">
+                <img src="./assets/aboutport_pic.jpg" alt="'ggs" class="about-pic"height=110% width=1000/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Academic Internship in Natural Language Processing </h3>
+                        <p><strong>CENTER FOR INTELLIGENT AUDIT AND COUNSEL</strong> <br>Hierarchical short Text Classification</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelor's degree in Visualization and Design of Decision Support Tools <br>Bachelor's degree in Computer Science with a specialization 
+                            in Data Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Currently pursuing my Bachelor's degree in Computer Science with a specialization 
+                        in Data Science, focusing on Visualization and Design of Decision Support Tools at IUT of Lisieux. 
+                        My aspiration is to become a data analysis specialist. I am deeply passionate about data 
+                        manipulation, visualization, and using them for making predictions and informed decisions. My academic 
+                        journey is driven by my eagerness to explore the fascinating world of data analytics</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="dsfgf" class="icon arrow" onclick="location.href='./#experience'"/>
+
+      </section>
+
+      <section id="experience">
+        <p class="section_p1">Explore My</p>
+        <h3 class="title">Experience</h3>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Data Science Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="'checkmark" class="icon"/>
+                            <div>
+                                <h3>R , r-shiny</h3>
+                                <!-- <p>Basic</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="'checkmark" class="icon"/>
+                            <div>
+                                <h3>sql</h3>
+                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="'checkmark" class="icon"/>
+                            <div>
+                                <h3>MATLAB</h3>
+                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+
+                    </div>
+                 </div>
+                 <div class="details-container">
+                    <h2 class="experience-sub-title">Web and Others Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>HTML5</h3>
+                                <!-- <p>Experienced</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>CSS3</h3>
+                                <!-- <p>Basic</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>PHP</h3>
+                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Java Script</h3>
+                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Felgo</h3>
+                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Git,Github</h3>
+                                <!-- <p>Intermediate</p> -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="dsfgf" class="icon arrow" onclick="location.href='./#projects'"/>
+      </section>
+
+      <section id="projects">
+        <p class="section_p1">Browse my recent</p>
+        <h3 class="title">Projects</h3>
+        <div class="experience-details-container">
+            <div class="about-containers">
+             <!--- autant de details container autant de project--->
+             <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/img1.png" alt="image-project1" class="project-img"/>
+                
+                </div>
+                <h2>Women Cycle Prediction</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/LyseNdifo/women-prediction', '_blank')">
+                        Github
+                    </button>                 
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Project-1.pdf', '_blank')">
+                        Description
+                    </button>
+                    
+                </div>
+             </div>
+              <!--- autant de details container autant de project--->
+              <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/sales-cus.jpg" alt="image-project2" class="project-img"/>
+                
+                </div>
+                <h2>Whole Sale Customers</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/LyseNdifo/WholeSaleCustomers_Analysis-DataMining-AcademicProject', '_blank')">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Project-2.pdf', '_blank')">
+                        Description
+                    </button>
+                    
+                </div>
+             </div>
+             <!-- autre project  -->
+             <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/Home_mobile.png" alt="image-project3" class="project-img"/>
+                
+                </div>
+                <h2>Mobile Streaming Application</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/LyseNdifo/mobile-streaming-application', '_blank')">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/Project-3.pdf', '_blank')">
+                        Description
+                    </button>                    
+                </div>
+             </div>
+             <!-- autre projet -->
+             <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/img-cnn.png" alt="image-project4" class="project-img"/>
+                
+                </div>
+                <h2 class="experience-sub-title project-title">Model of Text Classification</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.kaggle.com/code/lysendifo/cnn-and-svm-text-classification-with-pytorch', '_blank')">
+                        Kaggle
+                    </button>                    
+                </div>
+             </div>
+             <!-- autre projet -->
+             <!-- <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="image-project5" class="project-img"/>
+                
+                </div>
+                <h2 class="experience-sub-title project-title">Kaggle Data Analysis</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.kaggle.com/code/lysendifo/cnn-and-svm-text-classification-with-pytorch ' ">
+                        Kaggle
+                    </button>
+                </div>
+             </div> -->
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'"/>
+      </section>
+
+      <section id="contact">
+        <p class="section_p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="mail" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:lysendifo8@gmail.com" target="_blank">write me here</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/lyse-ndifo-2917a9236/" target="_blank">LinkedIn</a></p>
+            </div>            
+        </div>
+      </section>
+
+      <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; <!--symbole du copyright &#169;--> 2023 Lyse Ndifo.All Rights Reserved.</p>
+      </footer>
+       <script src="script.js">
+
+       </script>
+       
+
+
+
+    </body>
+</html>
+
+
+
+
+
