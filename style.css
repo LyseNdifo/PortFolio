@@ -261,6 +261,8 @@ a:hover{
    }
    .about-pic{
     border-radius: 2rem;
+    background-image: url("./assets/moi1c.jpg");
+    height: 100%;
    }
    .arrow{
     position: absolute;
